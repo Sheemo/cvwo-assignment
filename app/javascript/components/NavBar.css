@@ -1,0 +1,37 @@
+.NavbarItems {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: #50fa7b;
+  z-index: 10;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.NavbarItems a {
+  text-decoration: none;
+}
+
+.navbar-logo {
+  color: black;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
