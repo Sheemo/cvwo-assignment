@@ -8,5 +8,5 @@
 
 Task.create(TaskId: '2b37aa9e-eec3-430f-b6d2-777beff57469',
             Name: 'Sussy task',
-            Description: 'Ask Sheryl about whether she would wear anime outfits',
+            Description: 'Go out on a date',
             Category: 'Uncategorised')
